@@ -16847,6 +16847,8 @@ class basic_json
         result["platform"] = "win32";
 #elif defined __linux__
         result["platform"] = "linux";
+#elif defined SYLIXOS
+        result["platform"] = "sylixos";
 #elif defined __APPLE__
         result["platform"] = "apple";
 #elif defined __unix__
